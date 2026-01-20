@@ -1,12 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import TestimonialSlider from './components/Pojects/SixDayProject.jsx'
-import UnitConverter from './components/Pojects/FifthDayProject.jsx'
+import ThemeToggle from './components/Pojects/SeventhDayProject.jsx'
 createRoot(document.getElementById('root'))
   .render(
 
     <StrictMode>
-      <TestimonialSlider />
+      <ThemeToggle />
     </StrictMode>,
   )
