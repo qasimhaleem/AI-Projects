@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import PasswordGenerator from './components/Pojects/EightDayProject'
+import GithubFinder from './components/Pojects/TenthDayProject'
 createRoot(document.getElementById('root'))
   .render(
 
     <StrictMode>
-      <PasswordGenerator />
+      <GithubFinder />
     </StrictMode>,
   )
