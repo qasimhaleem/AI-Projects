@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-
+import { My_Weathe_API_EY } from '../../../secret';
 const WeatherDashboard = () => {
     const [city, setCity] = useState('London');
     const [weather, setWeather] = useState(null);
     const [input, setInput] = useState('');
 
     // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
-    const API_KEY = 'c07c69d48392d181bb3ca03909839a71';
+    const API_KEY = 'My_Weathe_API_EY';
 
     const fetchWeather = async (targetCity) => {
         try {
